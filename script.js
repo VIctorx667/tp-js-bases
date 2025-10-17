@@ -26,3 +26,8 @@ const calculerMoyenne = (note1, note2) => {
 
 // Raccourci ultime si la fonction ne fait qu'un return sur une seule ligne
 const additionner = (a, b) => a + b;
+
+const saluer = (prenom) => {
+    return "Bonjour," + prenom + " ! Comment vas-tu ?"
+}
+console.log(saluer("Victor"));
