@@ -31,3 +31,15 @@ const saluer = (prenom) => {
     return "Bonjour," + prenom + " ! Comment vas-tu ?"
 }
 console.log(saluer("Victor"));
+
+
+
+
+
+
+const toto = "kayak";
+const inversé = toto.split('').reverse('').join('');
+
+console.log(inversé);
+
+
